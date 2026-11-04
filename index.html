@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacidade — RiftStream — Auto Forja</title>
+    <style>
+      body {
+        max-width: 760px;
+        margin: 48px auto;
+        padding: 0 24px 48px;
+        color: #25212d;
+        font:
+          17px/1.65 system-ui,
+          sans-serif;
+      }
+      h1 {
+        line-height: 1.2;
+      }
+      h2 {
+        margin-top: 32px;
+        font-size: 21px;
+      }
+      a {
+        color: #594192;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Política de privacidade</h1>
+    <p>
+      RiftStream — Auto Forja · Versão 1.9.1 · Atualizada em 4 de novembro de
+      2026.
+    </p>
+    <p>
+      Esta política descreve o tratamento de informações pela extensão
+      independente RiftStream — Auto Forja. A extensão não é afiliada ao
+      RiftStream.
+    </p>
+    <h2>Informações processadas</h2>
+    <p>
+      A extensão lê localmente a URL da aba ativa para verificar a página do
+      personagem e as informações necessárias aos fluxos configurados: nomes,
+      níveis, raridades, tipos e estados de proteção de itens; ouro e atributos
+      exibidos; botões, modais e resultados de ações do jogo. Não solicita nem
+      lê senhas, tokens de autenticação, dados de pagamento ou o histórico geral
+      de navegação.
+    </p>
+    <h2>Uso e armazenamento local</h2>
+    <p>
+      Essas informações são usadas para selecionar materiais, aplicar limites de
+      venda, escolher pergaminhos permitidos, melhorar atributos e recuperar a
+      execução. Configurações, horários, contadores, melhorias pendentes e um
+      cache limitado de identificação dos itens ficam no sessionStorage da aba
+      do jogo. O estado de retomada expira após um minuto; o cache de tipos
+      contém até 256 entradas e pode permanecer durante a sessão da aba.
+    </p>
+    <p>
+      O armazenamento pertence à origem do jogo no navegador; não é um serviço
+      do desenvolvedor da extensão. Fechar a aba encerra normalmente essa
+      sessão, embora a restauração de abas pelo navegador possa preservá-la.
+      Também é possível remover esses dados pelas configurações de dados do site
+      no navegador.
+    </p>
+    <h2>Compartilhamento e transmissão</h2>
+    <p>
+      A extensão não envia essas informações ao seu desenvolvedor ou a serviços
+      de análise, publicidade ou terceiros. Não comercializa dados e não contém
+      rastreadores. As ações solicitadas pelo usuário são realizadas por cliques
+      nos controles do próprio jogo, que pode enviar ao RiftStream os comandos e
+      informações necessários à conta. O tratamento de dados pelo site
+      RiftStream é independente desta extensão.
+    </p>
+    <h2>Permissões</h2>
+    <p>
+      O uso das informações pela extensão se limita às funcionalidades descritas
+      nesta política e segue a Política de Dados do Usuário da Chrome Web Store,
+      incluindo os requisitos de Uso Limitado. As informações não são usadas
+      para publicidade, análise de crédito ou finalidades alheias à extensão.
+    </p>
+    <p>
+      activeTab permite identificar e controlar a aba escolhida quando o usuário
+      abre o popup. scripting permite injetar os scripts locais nessa página. Os
+      content scripts são restritos a https://riftstream.com.br/character* e
+      permitem retomar uma execução ativa após atualizar a página. Não há
+      execução de código obtido de servidores externos.
+    </p>
+    <h2>Controle do usuário</h2>
+    <p>
+      A execução começa quando o usuário clica em Iniciar e pode ser pausada em
+      Parar. Auto-venda, raridades altas e pergaminhos começam desabilitados.
+      Remover a extensão interrompe futuras execuções, mas não desfaz vendas,
+      forjas ou gastos já confirmados no jogo. Para apagar informações locais
+      remanescentes, remova os dados do site no navegador.
+    </p>
+    <h2>Alterações e contato</h2>
+    <p>
+      Esta política será atualizada caso o tratamento de informações mude.
+      Dúvidas sobre a extensão podem ser encaminhadas ao contato do
+      desenvolvedor informado na ficha da Chrome Web Store.
+    </p>
+  </body>
+</html>
